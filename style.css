@@ -1,0 +1,59 @@
+html, body, nav, ul, li, a {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+body {
+	background-image: url("http://s10.postimg.org/6rxpjwlah/beach.png");
+	background-size: cover;
+}
+nav {
+	background-color: black;
+	opacity: .7;
+	height: 100px;
+}
+nav .top {
+	text-align: left;
+	margin-left: 54px;
+}
+nav .top li a {
+	color: white;
+}
+nav .top li {
+	font-family: "Open Sans";
+	font-size: 14px;
+	display: inline-block;
+	padding: 35px 0px 15px 15px;
+}
+nav .main {
+	display: flex;
+    justify-content: space-around;
+}
+nav .main li{
+	font-family: "Open Sans";
+	font-size: 19px;
+	display: inline-block;
+}
+nav .main li a{
+	color: #CAA976;	
+}
+nav .main li:first-child {
+	border-bottom: 5px solid orange;
+}
+nav .main ul {
+	position: absolute;
+	width: 200px;
+	display: none;
+}
+nav .main li:hover < ul {
+	display: block;
+	background: red;
+}
+
+
+
+
+
+
+
